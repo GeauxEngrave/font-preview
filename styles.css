@@ -60,6 +60,15 @@
     src: url('fonts/TimberlyScript.ttf') format('truetype');
 }
 
+#textInput {
+    width: 80%; 
+    max-width: 600px; 
+    padding: 10px; 
+    font-size: 20px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+}
+
 /* Basic styling */
 body {
     font-family: 'Open Sans', sans-serif;
