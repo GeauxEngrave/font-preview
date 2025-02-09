@@ -58,62 +58,45 @@
     src: url('https://geauxengrave.github.io/font-preview/fonts/TimberlyScript.ttf') format('truetype');
 }
 
-.lego-house {
-    font-family: 'LegoHouse', cursive;
-    font-size: 36px;
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; /* This centers all the text in the body */
+    margin: 20px;
 }
 
-.abeezee {
-    font-family: 'ABeeZee', sans-serif;
+.font-preview {
+    margin: 10px 0;
     font-size: 36px;
+    position: relative;
+    display: inline-block; /* Ensures each font preview stays inline and centered */
+    text-align: center; /* Centers the text in each font preview block */
 }
 
-.ballistone {
-    font-family: 'Ballistone', cursive;
-    font-size: 36px;
+.font-preview::after {
+    content: attr(data-font-name);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.blacksword {
-    font-family: 'Blacksword', cursive;
-    font-size: 36px;
+.font-preview:hover::after {
+    visibility: visible;
+    opacity: 1;
 }
 
-.madelinascript {
-    font-family: 'MadelinaScript', cursive;
-    font-size: 36px;
-}
-
-.nathan {
-    font-family: 'Nathan', sans-serif;
-    font-size: 36px;
-}
-
-.rochester {
-    font-family: 'Rochester', serif;
-    font-size: 36px;
-}
-
-.sweety {
-    font-family: 'Sweety', cursive;
-    font-size: 36px;
-}
-
-.sweety-strawberry {
-    font-family: 'SweetyStrawberry', cursive;
-    font-size: 36px;
-}
-
-.tasteful-sandwich {
-    font-family: 'TastefulSandwich', cursive;
-    font-size: 36px;
-}
-
-.thequeen {
-    font-family: 'TheQueen', cursive;
-    font-size: 36px;
-}
-
-.timberscript {
-    font-family: 'TimberlyScript', cursive;
-    font-size: 36px;
+/* Ensure the font previews are also centered */
+.lego-house, .abeezee, .ballistone, .blacksword, .madelinascript, .nathan, .rochester, .sweety, .sweety-strawberry, .tasteful-sandwich, .thequeen, .timberscript {
+    display: block;
+    text-align: center;
+    margin: 0 auto; /* This ensures the font previews themselves are centered */
 }
