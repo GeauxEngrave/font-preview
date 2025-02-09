@@ -2,62 +2,62 @@
 
 @font-face {
     font-family: 'ABeeZee';
-    src: url('font-preview/fonts/ABeeZee-Regular.ttf') format('truetype');
+    src: url('fonts/ABeeZee-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Ballistone';
-    src: url('font-preview/fonts/Ballistone.ttf') format('truetype');
+    src: url('fonts/Ballistone.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Blacksword';
-    src: url('font-preview/fonts/Blacksword.otf') format('opentype');
+    src: url('fonts/Blacksword.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'LegoHouse';
-    src: url('font-preview/fonts/KGLegoHouse.ttf') format('truetype');
+    src: url('fonts/KGLegoHouse.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'MadelinaScript';
-    src: url('font-preview/fonts/MadelinaScript-Regular.ttf') format('truetype');
+    src: url('fonts/MadelinaScript-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Nathan';
-    src: url('font-preview/fonts/Nathan-Regular.ttf') format('truetype');
+    src: url('fonts/Nathan-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Rochester';
-    src: url('font-preview/fonts/Rochester-Regular.ttf') format('truetype');
+    src: url('fonts/Rochester-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Sweety';
-    src: url('font-preview/fonts/Sweety.ttf') format('truetype');
+    src: url('fonts/Sweety.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'SweetyStrawberry';
-    src: url('font-preview/fonts/Sweety Strawberry.ttf') format('truetype');
+    src: url('fonts/Sweety Strawberry.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'TastefulSandwich';
-    src: url('font-preview/fonts/Tasteful Sandwich.otf') format('opentype');
+    src: url('fonts/Tasteful Sandwich.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'TheQueen';
-    src: url('font-preview/fonts/TheQueen-Regular.ttf') format('truetype');
+    src: url('fonts/TheQueen-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'TimberlyScript';
-    src: url('font-preview/fonts/TimberlyScript.ttf') format('truetype');
+    src: url('fonts/TimberlyScript.ttf') format('truetype');
 }
 
 body {
