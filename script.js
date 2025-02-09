@@ -10,6 +10,6 @@ function updateText() {
     document.getElementById('sweetyPreview').innerText = userInput || "Sweety";
     document.getElementById('sweetyStrawberryPreview').innerText = userInput || "SweetyStrawberry";
     document.getElementById('tastefulSandwichPreview').innerText = userInput || "TastefulSandwich";
-    document.getElementById('timberlyScriptPreview').innerText = userInput || "TimberlyScript";
     document.getElementById('theQueenPreview').innerText = userInput || "TheQueen";
+    document.getElementById('timberlyScriptPreview').innerText = userInput || "TimberlyScript";
 }
