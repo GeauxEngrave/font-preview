@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 @font-face { font-family: 'ABeeZee'; src: url('fonts/ABeeZee.ttf') format('truetype'); }
+@font-face { font-family: 'Aglonema'; src: url('fonts/Aglonema.otf') format('opentype'); }
+@font-face { font-family: 'Aichella'; src: url('fonts/Aichella.ttf') format('truetype'); }
 @font-face { font-family: 'Ballistone'; src: url('fonts/Ballistone.ttf') format('truetype'); }
+@font-face { font-family: 'BasyirahScript'; src: url('fonts/BasyirahScript.ttf') format('truetype'); }
+@font-face { font-family: 'BigLove'; src: url('fonts/BigLove.ttf') format('truetype'); }
 @font-face { font-family: 'Blacksword'; src: url('fonts/Blacksword.otf') format('opentype'); }
+@font-face { font-family: 'CattyMagic'; src: url('fonts/CattyMagic.ttf') format('truetype'); }
+@font-face { font-family: 'ChickenTurkey'; src: url('fonts/ChickenTurkey.ttf') format('truetype'); }
+@font-face { font-family: 'Cookie'; src: url('fonts/Cookie.ttf') format('truetype'); }
+@font-face { font-family: 'Cupcake'; src: url('fonts/Cupcake.ttf') format('truetype'); }
+@font-face { font-family: 'HeyButterfly'; src: url('fonts/HeyButterfly.ttf') format('truetype'); }
 @font-face { font-family: 'LegoHouse'; src: url('fonts/LegoHouse.ttf') format('truetype'); }
+@font-face { font-family: 'LittleJoy'; src: url('fonts/LittleJoy.ttf') format('truetype'); }
 @font-face { font-family: 'MadelinaScript'; src: url('fonts/MadelinaScript.ttf') format('truetype'); }
 @font-face { font-family: 'Nathan'; src: url('fonts/Nathan.ttf') format('truetype'); }
 @font-face { font-family: 'Rochester'; src: url('fonts/Rochester.ttf') format('truetype'); }
@@ -12,6 +22,7 @@
 @font-face { font-family: 'TastefulSandwich'; src: url('fonts/TastefulSandwich.otf') format('opentype'); }
 @font-face { font-family: 'TheQueen'; src: url('fonts/TheQueen.ttf') format('truetype'); }
 @font-face { font-family: 'TimberlyScript'; src: url('fonts/TimberlyScript.ttf') format('truetype'); }
+@font-face { font-family: 'WhattheTeacherWants'; src: url('fonts/WhattheTeacherWants.ttf') format('truetype'); }
 
 #textInput {
     width: 80%; 
@@ -82,18 +93,27 @@ body {
 
 /* Font styles for each font family */
 .abeezee { font-family: 'ABeeZee', sans-serif; }
+.aglonema { font-family: 'Aglonema', serif; }
+.aichella { font-family: 'Aichella', sans-serif; }
 .ballistone { font-family: 'Ballistone', cursive; }
+.basyirahscript { font-family: 'BasyirahScript', cursive; }
 .bellmt { font-family: 'Bell MT', serif; }
 .blacksword { font-family: 'Blacksword', cursive; }
-.centurygothic { font-family: 'Century Gothic', sans-serif; }
-.centuryschoolbook { font-family: 'Century Schoolbook', serif; }
+.biglove { font-family: 'BigLove', cursive; }
+.cattymagic { font-family: 'CattyMagic', cursive; }
+.chickenturkey { font-family: 'ChickenTurkey', cursive; }
+.cookie { font-family: 'Cookie', cursive; }
+.cupcake { font-family: 'Cupcake', cursive; }
 .dubai { font-family: 'Dubai', sans-serif; }
+.heybutterfly { font-family: 'HeyButterfly', cursive; }
 .legohouse { font-family: 'LegoHouse', sans-serif; }
+.littlejoy { font-family: 'LittleJoy', cursive; }
+.madelinascript { font-family: 'MadelinaScript', cursive; }
 .nathan { font-family: 'Nathan', cursive; }
 .rochester { font-family: 'Rochester', cursive; }
 .sweety { font-family: 'Sweety', cursive; }
 .sweetystrawberry { font-family: 'SweetyStrawberry', cursive; }
 .tastefulsandwich { font-family: 'TastefulSandwich', cursive; }
-.madelinascript { font-family: 'MadelinaScript', cursive; }
-.timberlyscript { font-family: 'TimberlyScript', cursive; }
 .thequeen { font-family: 'TheQueen', cursive; }
+.timberlyscript { font-family: 'TimberlyScript', cursive; }
+.whattheteacherwants { font-family: 'WhattheTeacherWants', cursive; }
