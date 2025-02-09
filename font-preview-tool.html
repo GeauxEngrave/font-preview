@@ -4,69 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Font Preview Tool</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-        
-        @font-face {
-            font-family: 'Blacksword';
-            src: url('https://geauxengrave.github.io/font-preview/fonts/Blacksword.otf') format('opentype');
-        }
-        
-        body {
-            font-family: 'Open Sans', sans-serif;
-            text-align: center;
-            margin: 20px;
-        }
-        
-        #textInput {
-            width: 80%;
-            padding: 10px;
-            font-size: 20px;
-            margin-bottom: 20px;
-        }
-        
-        .font-preview {
-            margin: 10px 0;
-            font-size: 36px;
-            position: relative;
-            display: block;
-        }
-        
-        .font-preview::after {
-            content: attr(data-font-name);
-            position: absolute;
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 5px;
-            border-radius: 5px;
-            font-size: 16px;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            white-space: nowrap;
-            visibility: hidden;
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-        }
-        
-        .font-preview:hover::after {
-            visibility: visible;
-            opacity: 1;
-        }
-        
-        .blacksword {
-            font-family: 'Blacksword', cursive;
-        }
-        .open-sans {
-            font-family: 'Open Sans', sans-serif;
-        }
-        .serif {
-            font-family: 'Times New Roman', serif;
-        }
-        .monospace {
-            font-family: 'Courier New', monospace;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
     <h2>Preview Your Text Here!</h2>
@@ -77,14 +15,19 @@
     <div class="font-preview serif" id="serifPreview" data-font-name="Times New Roman">Times New Roman</div>
     <div class="font-preview monospace" id="monospacePreview" data-font-name="Courier New">Courier New</div>
     
-    <script>
-        function updateText() {
-            let userInput = document.getElementById('textInput').value;
-            document.getElementById('blackswordPreview').innerText = userInput || "Blacksword";
-            document.getElementById('openSansPreview').innerText = userInput || "Open Sans";
-            document.getElementById('serifPreview').innerText = userInput || "Times New Roman";
-            document.getElementById('monospacePreview').innerText = userInput || "Courier New";
-        }
-    </script>
+    <div class="font-preview nathan" id="nathanPreview" data-font-name="Nathan">Nathan</div>
+    <div class="font-preview timberlyscript" id="timberlyscriptPreview" data-font-name="Timberly Script">Timberly Script</div>
+    <div class="font-preview ballistone" id="ballistonePreview" data-font-name="Ballistone">Ballistone</div>
+    <div class="font-preview madelinascript" id="madelinascriptPreview" data-font-name="Madelina Script">Madelina Script</div>
+    <div class="font-preview tastefulsandwich" id="tastefulsandwichPreview" data-font-name="Tasteful Sandwich">Tasteful Sandwich</div>
+    <div class="font-preview sweety" id="sweetyPreview" data-font-name="Sweety">Sweety</div>
+    <div class="font-preview rochester" id="rochesterPreview" data-font-name="Rochester">Rochester</div>
+    <div class="font-preview legohouse" id="legohousePreview" data-font-name="Lego House">Lego House</div>
+    <div class="font-preview abeezee" id="abeezeePreview" data-font-name="ABeeZee">ABeeZee</div>
+    <div class="font-preview sweetystrberry" id="sweetystrberryPreview" data-font-name="Sweety Strawberry">Sweety Strawberry</div>
+    <div class="font-preview thequeen" id="thequeenPreview" data-font-name="The Queen">The Queen</div>
+    <div class="font-preview centurygothic" id="centurygothicPreview" data-font-name="Century Gothic">Century Gothic</div>
+    
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
 </body>
 </html>
