@@ -17,22 +17,22 @@
 
 @font-face {
     font-family: 'LegoHouse';
-    src: url('fonts/KGLegoHouse.ttf') format('truetype');
+    src: url('fonts/LegoHouse.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'MadelinaScript';
-    src: url('fonts/MadelinaScript-Regular.ttf') format('truetype');
+    src: url('fonts/MadelinaScript.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Nathan';
-    src: url('fonts/Nathan-Regular.ttf') format('truetype');
+    src: url('fonts/Nathan.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Rochester';
-    src: url('fonts/Rochester-Regular.ttf') format('truetype');
+    src: url('fonts/Rochester.ttf') format('truetype');
 }
 
 @font-face {
