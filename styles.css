@@ -14,7 +14,7 @@
 }
 
 @font-face {
-    font-family: 'KGLegoHouse';
+    font-family: 'LegoHouse';
     src: url('https://geauxengrave.github.io/font-preview/fonts/LegoHouse.ttf') format('truetype');
 }
 
@@ -59,7 +59,7 @@
 }
 
 .lego-house {
-    font-family: 'KGLegoHouse', cursive;
+    font-family: 'LegoHouse', cursive;
     font-size: 36px;
 }
 
