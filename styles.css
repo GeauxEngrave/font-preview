@@ -1,64 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-@font-face {
-    font-family: 'ABeeZee';
-    src: url('fonts/ABeeZee.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Ballistone';
-    src: url('fonts/Ballistone.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Blacksword';
-    src: url('fonts/Blacksword.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'LegoHouse';
-    src: url('fonts/LegoHouse.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'MadelinaScript';
-    src: url('fonts/MadelinaScript.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Nathan';
-    src: url('fonts/Nathan.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Rochester';
-    src: url('fonts/Rochester.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Sweety';
-    src: url('fonts/Sweety.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'SweetyStrawberry';
-    src: url('fonts/SweetyStrawberry.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'TastefulSandwich';
-    src: url('fonts/TastefulSandwich.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'TheQueen';
-    src: url('fonts/TheQueen.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'TimberlyScript';
-    src: url('fonts/TimberlyScript.ttf') format('truetype');
-}
+@font-face { font-family: 'ABeeZee'; src: url('fonts/ABeeZee.ttf') format('truetype'); }
+@font-face { font-family: 'Ballistone'; src: url('fonts/Ballistone.ttf') format('truetype'); }
+@font-face { font-family: 'Blacksword'; src: url('fonts/Blacksword.otf') format('opentype'); }
+@font-face { font-family: 'LegoHouse'; src: url('fonts/LegoHouse.ttf') format('truetype'); }
+@font-face { font-family: 'MadelinaScript'; src: url('fonts/MadelinaScript.ttf') format('truetype'); }
+@font-face { font-family: 'Nathan'; src: url('fonts/Nathan.ttf') format('truetype'); }
+@font-face { font-family: 'Rochester'; src: url('fonts/Rochester.ttf') format('truetype'); }
+@font-face { font-family: 'Sweety'; src: url('fonts/Sweety.ttf') format('truetype'); }
+@font-face { font-family: 'SweetyStrawberry'; src: url('fonts/SweetyStrawberry.ttf') format('truetype'); }
+@font-face { font-family: 'TastefulSandwich'; src: url('fonts/TastefulSandwich.otf') format('opentype'); }
+@font-face { font-family: 'TheQueen'; src: url('fonts/TheQueen.ttf') format('truetype'); }
+@font-face { font-family: 'TimberlyScript'; src: url('fonts/TimberlyScript.ttf') format('truetype'); }
 
 #textInput {
     width: 80%; 
@@ -120,83 +73,19 @@ body {
 }
 
 /* Font styles for each font family */
-.abeezee {
-    font-family: 'ABeeZee', sans-serif;
-    font-size: 36px;
-}
-
-.ballistone {
-    font-family: 'Ballistone', cursive;
-    font-size: 36px;
-}
-
-.bellmt {
-    font-family: 'Bell MT', serif;
-    font-size: 36px;
-}
-
-.blacksword {
-    font-family: 'Blacksword', cursive;
-    font-size: 36px;
-}
-
-.centurygothic {
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 36px;
-}
-
-.centuryschoolbook {
-    font-family: 'Century Schoolbook', serif;
-    font-size: 36px;
-}
-
-.dubai {
-    font-family: 'Dubai', sans-serif;
-    font-size: 36px;
-}
-
-.legohouse {
-    font-family: 'LegoHouse', sans-serif;
-    font-size: 36px;
-}
-
-.nathan {
-    font-family: 'Nathan', cursive;
-    font-size: 36px;
-}
-
-.rochester {
-    font-family: 'Rochester', cursive;
-    font-size: 36px;
-}
-
-.sweety {
-    font-family: 'Sweety', cursive;
-    font-size: 36px;
-}
-
-.sweetystrawberry {
-    font-family: 'SweetyStrawberry', cursive;
-    font-size: 36px;
-}
-
-.tastefulsandwich {
-    font-family: 'TastefulSandwich', cursive;
-    font-size: 36px;
-}
-
-.madelinascript {
-    font-family: 'MadelinaScript', cursive;
-    font-size: 36px;
-}
-
-.timberlyscript {
-    font-family: 'TimberlyScript', cursive;
-    font-size: 36px;
-}
-
-.thequeen {
-    font-family: 'TheQueen', cursive;
-    font-size: 36px;
-}
-
+.abeezee { font-family: 'ABeeZee', sans-serif; }
+.ballistone { font-family: 'Ballistone', cursive; }
+.bellmt { font-family: 'Bell MT', serif; }
+.blacksword { font-family: 'Blacksword', cursive; }
+.centurygothic { font-family: 'Century Gothic', sans-serif; }
+.centuryschoolbook { font-family: 'Century Schoolbook', serif; }
+.dubai { font-family: 'Dubai', sans-serif; }
+.legohouse { font-family: 'LegoHouse', sans-serif; }
+.nathan { font-family: 'Nathan', cursive; }
+.rochester { font-family: 'Rochester', cursive; }
+.sweety { font-family: 'Sweety', cursive; }
+.sweetystrawberry { font-family: 'SweetyStrawberry', cursive; }
+.tastefulsandwich { font-family: 'TastefulSandwich', cursive; }
+.madelinascript { font-family: 'MadelinaScript', cursive; }
+.timberlyscript { font-family: 'TimberlyScript', cursive; }
+.thequeen { font-family: 'TheQueen', cursive; }
