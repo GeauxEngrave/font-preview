@@ -47,12 +47,12 @@
 
 @font-face {
     font-family: 'TastefulSandwich';
-    src: url('fonts/Tasteful Sandwich.otf') format('opentype');
+    src: url('fonts/TastefulSandwich.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'TheQueen';
-    src: url('fonts/TheQueen-Regular.ttf') format('truetype');
+    src: url('fonts/TheQueen.ttf') format('truetype');
 }
 
 @font-face {
