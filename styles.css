@@ -22,6 +22,13 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 /* Basic styling */
 body {
     font-family: 'Open Sans', sans-serif;
