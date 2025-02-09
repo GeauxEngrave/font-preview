@@ -57,7 +57,7 @@ h2 {
 .non-script-fonts,
 .script-fonts {
     flex: 1;
-    min-width: 150px; 
+    min-width: 50px; 
     padding: 20px;
 }
 
