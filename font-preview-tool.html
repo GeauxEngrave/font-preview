@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Preview Tool</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+        
+        @font-face {
+            font-family: 'Blacksword';
+            src: url('https://your-hosted-font-location/Blacksword.ttf') format('truetype');
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        
+        #textInput {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .font-preview {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        
+        .blacksword {
+            font-family: 'Blacksword', cursive;
+        }
+        .open-sans {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .serif {
+            font-family: 'Times New Roman', serif;
+        }
+        .monospace {
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <h2>Font Preview Tool</h2>
+    <input type="text" id="textInput" placeholder="Type your text here..." oninput="updateText()">
+    
+    <div class="font-preview blacksword" id="blackswordPreview">Sample Text</div>
+    <div class="font-preview open-sans" id="openSansPreview">Sample Text</div>
+    <div class="font-preview serif" id="serifPreview">Sample Text</div>
+    <div class="font-preview monospace" id="monospacePreview">Sample Text</div>
+    
+    <script>
+        function updateText() {
+            let userInput = document.getElementById('textInput').value;
+            document.getElementById('blackswordPreview').innerText = userInput || "Sample Text";
+            document.getElementById('openSansPreview').innerText = userInput || "Sample Text";
+            document.getElementById('serifPreview').innerText = userInput || "Sample Text";
+            document.getElementById('monospacePreview').innerText = userInput || "Sample Text";
+        }
+    </script>
+</body>
+</html>
