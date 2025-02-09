@@ -49,10 +49,9 @@ h2 {
 }
 
 .font-container {
-    /*display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;*/
-    text-align: center;
+    justify-content: center;
 }
 
 .non-script-fonts,
@@ -63,14 +62,10 @@ h2 {
 }
 
 .font-preview {
-    /*margin: 10px 0;
+    margin: 10px 0;
     font-size: 36px;
     position: relative;
-    display: block;*/
-    display: inline-block; 
-    width: 45%;            
-    margin: 10px;          
-    font-size: 36px;
+    display: block;
 }
 
 .font-preview::after {
@@ -81,9 +76,9 @@ h2 {
     padding: 5px;
     border-radius: 5px;
     font-size: 24px;
-    top: 50%;
-    left: 100%;
-    transform: translateY(-50%);
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     white-space: nowrap;
     visibility: hidden;
     opacity: 0;
