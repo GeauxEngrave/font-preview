@@ -52,12 +52,14 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 
 .non-script-fonts,
 .script-fonts {
     flex: 1;
     min-width: 50px; 
+    max-width: 100px;
     padding: 20px;
 }
 
