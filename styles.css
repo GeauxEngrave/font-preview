@@ -61,34 +61,17 @@ h2 {
     padding: 20px;
 }
 
+/* Reset font on hover */
 .font-preview {
-    margin: 10px 0;
-    font-size: 36px;
-    position: relative;
-    display: block;
+    display: inline-block;
+    transition: font-family 0.3s ease;
 }
 
-.font-preview::after {
-    content: attr(data-font-name);
-    position: absolute;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 16px;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+/* Change the font back to its original style when hovered */
+.font-preview:hover {
+    font-family: inherit; /* Revert to the original font */
 }
 
-.font-preview:hover::after {
-    visibility: visible;
-    opacity: 1;
-}
 
 .abeezee { font-family: 'ABeeZee', sans-serif; }
 .aglonema { font-family: 'Aglonema', serif; }
