@@ -60,11 +60,6 @@
     src: url('https://geauxengrave.github.io/font-preview/TheQueen.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Century Gothic';
-    src: local('Century Gothic');
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -110,48 +105,36 @@ body {
 .blacksword {
     font-family: 'Blacksword', cursive;
 }
-.open-sans {
-    font-family: 'Open Sans', sans-serif;
-}
-.serif {
-    font-family: 'Times New Roman', serif;
-}
-.monospace {
-    font-family: 'Courier New', monospace;
-}
 .nathan {
-    font-family: 'Nathan', cursive;
+    font-family: 'Nathan', sans-serif;
 }
-.timberlyscript {
+.timberly-script {
     font-family: 'TimberlyScript', cursive;
 }
 .ballistone {
-    font-family: 'Ballistone', cursive;
+    font-family: 'Ballistone', sans-serif;
 }
-.madelinascript {
+.madelina-script {
     font-family: 'MadelinaScript', cursive;
 }
-.tastefulsandwich {
+.tasteful-sandwich {
     font-family: 'TastefulSandwich', cursive;
 }
 .sweety {
     font-family: 'Sweety', cursive;
 }
 .rochester {
-    font-family: 'Rochester', cursive;
+    font-family: 'Rochester', serif;
 }
-.legohouse {
+.lego-house {
     font-family: 'LegoHouse', cursive;
 }
-.abeezee {
+.abee-zee {
     font-family: 'ABeeZee', sans-serif;
 }
-.sweetystrberry {
+.sweety-strawberry {
     font-family: 'SweetyStrawberry', cursive;
 }
-.thequeen {
-    font-family: 'TheQueen', cursive;
-}
-.centurygothic {
-    font-family: 'Century Gothic', sans-serif;
+.the-queen {
+    font-family: 'TheQueen', serif;
 }
