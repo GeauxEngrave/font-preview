@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Font Preview Tool</title>
+    <title>Preview Your Text Here!</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
         
@@ -48,18 +48,18 @@
     <h2>Font Preview Tool</h2>
     <input type="text" id="textInput" placeholder="Type your text here..." oninput="updateText()">
     
-    <div class="font-preview blacksword" id="blackswordPreview">Sample Text</div>
-    <div class="font-preview open-sans" id="openSansPreview">Sample Text</div>
-    <div class="font-preview serif" id="serifPreview">Sample Text</div>
-    <div class="font-preview monospace" id="monospacePreview">Sample Text</div>
+    <div class="font-preview blacksword" id="blackswordPreview">Geaux Engrave</div>
+    <div class="font-preview open-sans" id="openSansPreview">Geaux Engrave</div>
+    <div class="font-preview serif" id="serifPreview">Geaux Engrave</div>
+    <div class="font-preview monospace" id="monospacePreview">Geaux Engrave</div>
     
     <script>
         function updateText() {
             let userInput = document.getElementById('textInput').value;
-            document.getElementById('blackswordPreview').innerText = userInput || "Sample Text";
-            document.getElementById('openSansPreview').innerText = userInput || "Sample Text";
-            document.getElementById('serifPreview').innerText = userInput || "Sample Text";
-            document.getElementById('monospacePreview').innerText = userInput || "Sample Text";
+            document.getElementById('blackswordPreview').innerText = userInput || "Geaux Engrave";
+            document.getElementById('openSansPreview').innerText = userInput || "Geaux Engrave";
+            document.getElementById('serifPreview').innerText = userInput || "Geaux Engrave";
+            document.getElementById('monospacePreview').innerText = userInput || "Geaux Engrave";
         }
     </script>
 </body>
