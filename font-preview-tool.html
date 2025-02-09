@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preview Your Text Here!</title>
+    <title>Font Preview Tool</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
         
@@ -45,21 +45,21 @@
     </style>
 </head>
 <body>
-    <h2>Font Preview Tool</h2>
+    <h2>Preview Your Text Here!</h2>
     <input type="text" id="textInput" placeholder="Type your text here..." oninput="updateText()">
     
-    <div class="font-preview blacksword" id="blackswordPreview">Geaux Engrave</div>
-    <div class="font-preview open-sans" id="openSansPreview">Geaux Engrave</div>
-    <div class="font-preview serif" id="serifPreview">Geaux Engrave</div>
-    <div class="font-preview monospace" id="monospacePreview">Geaux Engrave</div>
+    <div class="font-preview blacksword" id="blackswordPreview">Blacksword</div>
+    <div class="font-preview open-sans" id="openSansPreview">Open Sans</div>
+    <div class="font-preview serif" id="serifPreview">Times New Roman</div>
+    <div class="font-preview monospace" id="monospacePreview">Courier New</div>
     
     <script>
         function updateText() {
             let userInput = document.getElementById('textInput').value;
-            document.getElementById('blackswordPreview').innerText = userInput || "Geaux Engrave";
-            document.getElementById('openSansPreview').innerText = userInput || "Geaux Engrave";
-            document.getElementById('serifPreview').innerText = userInput || "Geaux Engrave";
-            document.getElementById('monospacePreview').innerText = userInput || "Geaux Engrave";
+            document.getElementById('blackswordPreview').innerText = userInput || "Blacksword";
+            document.getElementById('openSansPreview').innerText = userInput || "Open Sans";
+            document.getElementById('serifPreview').innerText = userInput || "Times New Roman";
+            document.getElementById('monospacePreview').innerText = userInput || "Courier New";
         }
     </script>
 </body>
