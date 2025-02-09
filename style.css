@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Blacksword';
+    src: url('https://geauxengrave.github.io/font-preview/Blacksword.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nathan';
+    src: url('https://geauxengrave.github.io/font-preview/Nathan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TimberlyScript';
+    src: url('https://geauxengrave.github.io/font-preview/TimberlyScript.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ballistone';
+    src: url('https://geauxengrave.github.io/font-preview/Ballistone.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MadelinaScript';
+    src: url('https://geauxengrave.github.io/font-preview/MadelinaScript.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TastefulSandwich';
+    src: url('https://geauxengrave.github.io/font-preview/TastefulSandwich.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Sweety';
+    src: url('https://geauxengrave.github.io/font-preview/Sweety.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rochester';
+    src: url('https://geauxengrave.github.io/font-preview/Rochester.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LegoHouse';
+    src: url('https://geauxengrave.github.io/font-preview/LegoHouse.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ABeeZee';
+    src: url('https://geauxengrave.github.io/font-preview/ABeeZee.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SweetyStrawberry';
+    src: url('https://geauxengrave.github.io/font-preview/SweetyStrawberry.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TheQueen';
+    src: url('https://geauxengrave.github.io/font-preview/TheQueen.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: local('Century Gothic');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#textInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.font-preview {
+    margin: 10px 0;
+    font-size: 36px;
+    position: relative;
+    display: block;
+}
+
+.font-preview::after {
+    content: attr(data-font-name);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.font-preview:hover::after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.blacksword {
+    font-family: 'Blacksword', cursive;
+}
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+.serif {
+    font-family: 'Times New Roman', serif;
+}
+.monospace {
+    font-family: 'Courier New', monospace;
+}
+.nathan {
+    font-family: 'Nathan', cursive;
+}
+.timberlyscript {
+    font-family: 'TimberlyScript', cursive;
+}
+.ballistone {
+    font-family: 'Ballistone', cursive;
+}
+.madelinascript {
+    font-family: 'MadelinaScript', cursive;
+}
+.tastefulsandwich {
+    font-family: 'TastefulSandwich', cursive;
+}
+.sweety {
+    font-family: 'Sweety', cursive;
+}
+.rochester {
+    font-family: 'Rochester', cursive;
+}
+.legohouse {
+    font-family: 'LegoHouse', cursive;
+}
+.abeezee {
+    font-family: 'ABeeZee', sans-serif;
+}
+.sweetystrberry {
+    font-family: 'SweetyStrawberry', cursive;
+}
+.thequeen {
+    font-family: 'TheQueen', cursive;
+}
+.centurygothic {
+    font-family: 'Century Gothic', sans-serif;
+}
