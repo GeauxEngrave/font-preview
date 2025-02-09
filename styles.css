@@ -33,19 +33,18 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
 h2 {
     font-size: 52px;
     text-align: center;
     margin-bottom: 10px;
     font-weight: bold;
     text-decoration: underline;
-}
-
-/* Basic styling */
-body {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin: 20px;
 }
 
 .font-container {
@@ -57,11 +56,10 @@ body {
 .non-script-fonts,
 .script-fonts {
     flex: 1;
-    min-width: 300px; /* Ensure columns don't get too narrow */
+    min-width: 300px; 
     padding: 20px;
 }
 
-/* Style for font previews */
 .font-preview {
     margin: 10px 0;
     font-size: 36px;
@@ -91,7 +89,6 @@ body {
     opacity: 1;
 }
 
-/* Font styles for each font family */
 .abeezee { font-family: 'ABeeZee', sans-serif; }
 .aglonema { font-family: 'Aglonema', serif; }
 .aichella { font-family: 'Aichella', sans-serif; }
