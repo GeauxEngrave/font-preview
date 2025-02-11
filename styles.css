@@ -8,9 +8,12 @@
 @font-face { font-family: 'BigLove'; src: url('fonts/BigLove.ttf') format('truetype'); }
 @font-face { font-family: 'Blacksword'; src: url('fonts/Blacksword.otf') format('opentype'); }
 @font-face { font-family: 'CattyMagic'; src: url('fonts/CattyMagic.ttf') format('truetype'); }
+@font-face { font-family: 'CenturyGothic'; src: url('fonts/CenturyGothic.ttf') format('truetype'); }
+@font-face { font-family: 'CenturySchoolbook'; src: url('fonts/CenturySchoolbook.otf') format('opentype'); }
 @font-face { font-family: 'ChickenTurkey'; src: url('fonts/ChickenTurkey.ttf') format('truetype'); }
 @font-face { font-family: 'Cookie'; src: url('fonts/Cookie.ttf') format('truetype'); }
 @font-face { font-family: 'Cupcake'; src: url('fonts/Cupcake.ttf') format('truetype'); }
+@font-face { font-family: 'Dubai'; src: url('fonts/Dubai.ttf') format('truetype'); }
 @font-face { font-family: 'HeyButterfly'; src: url('fonts/HeyButterfly.ttf') format('truetype'); }
 @font-face { font-family: 'Jamberry'; src: url('fonts/Jamberry.ttf') format('truetype'); }
 @font-face { font-family: 'LegoHouse'; src: url('fonts/LegoHouse.ttf') format('truetype'); }
@@ -100,6 +103,8 @@ h2 {
 .blacksword { font-family: 'Blacksword', cursive; }
 .biglove { font-family: 'BigLove', cursive; }
 .cattymagic { font-family: 'CattyMagic', cursive; }
+.centurygothic { font-family: 'CenturyGothic', sans-serif; }
+.centuryschoolbook { font-family: 'CenturySchoolbook', serif; }
 .chickenturkey { font-family: 'ChickenTurkey', cursive; }
 .cookie { font-family: 'Cookie', cursive; }
 .cupcake { font-family: 'Cupcake', cursive; }
