@@ -12,6 +12,7 @@
 @font-face { font-family: 'Cookie'; src: url('fonts/Cookie.ttf') format('truetype'); }
 @font-face { font-family: 'Cupcake'; src: url('fonts/Cupcake.ttf') format('truetype'); }
 @font-face { font-family: 'HeyButterfly'; src: url('fonts/HeyButterfly.ttf') format('truetype'); }
+@font-face { font-family: 'Jamberry'; src: url('fonts/Jamberry.ttf') format('truetype'); }
 @font-face { font-family: 'LegoHouse'; src: url('fonts/LegoHouse.ttf') format('truetype'); }
 @font-face { font-family: 'LittleJoy'; src: url('fonts/LittleJoy.ttf') format('truetype'); }
 @font-face { font-family: 'MadelinaScript'; src: url('fonts/MadelinaScript.ttf') format('truetype'); }
@@ -56,8 +57,8 @@ h2 {
 .non-script-fonts,
 .script-fonts {
     flex: 1;
-    min-width: 250px; 
-    max-width: 300px;
+    min-width: 300px; 
+    max-width: 350px;
     padding: 10px;
 }
 
@@ -104,6 +105,7 @@ h2 {
 .cupcake { font-family: 'Cupcake', cursive; }
 .dubai { font-family: 'Dubai', sans-serif; }
 .heybutterfly { font-family: 'HeyButterfly', cursive; }
+.jamberry { font-family: 'Jamberry', cursive; }
 .legohouse { font-family: 'LegoHouse', sans-serif; }
 .littlejoy { font-family: 'LittleJoy', cursive; }
 .madelinascript { font-family: 'MadelinaScript', cursive; }
